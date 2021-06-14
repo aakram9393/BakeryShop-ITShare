@@ -54,7 +54,7 @@ namespace BakeryShop.Pages
                         var momknCredentials = new NetworkCredential
                         {
                             UserName = "ahmed.akram@momkn.com.eg",
-                            Password = "Momkn4all"
+                            Password = ""
                         };
                         smtp.Credentials = momknCredentials;
                         smtp.Host = "160.153.133.215";
